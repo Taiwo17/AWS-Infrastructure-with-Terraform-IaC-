@@ -1,0 +1,56 @@
+diagram.tfvars
+
+# Terraform directories
+
+**/.terraform/*
+
+# Terraform state files
+
+*.tfstate
+*.tfstate.*
+*.tfstate.backup
+
+# Terraform crash logs
+
+crash.log
+crash.*.log
+
+# Terraform variable files (may contain secrets)
+
+*.tfvars
+*.tfvars.json
+
+# Override files
+
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Terraform CLI configuration
+
+.terraformrc
+terraform.rc
+
+# Terraform plan files
+
+*.tfplan
+tfplan
+plan.out
+
+# Sensitive key and credential files
+
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Environment variables
+
+.env
+.env.*
+
+# AWS credentials and local configuration
+
+.aws/
+credentials
